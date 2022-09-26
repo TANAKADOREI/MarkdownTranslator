@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownTranslatorCore", "MarkdownTranslatorCore\MarkdownTranslatorCore.csproj", "{0900F335-F86B-4760-8C3A-382F4DCA95DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownTranslatorConsole", "MarkdownTranslatorConsole\MarkdownTranslatorConsole.csproj", "{C1541E11-5678-4E04-8622-4C5F1D4DF0C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0900F335-F86B-4760-8C3A-382F4DCA95DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0900F335-F86B-4760-8C3A-382F4DCA95DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0900F335-F86B-4760-8C3A-382F4DCA95DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0900F335-F86B-4760-8C3A-382F4DCA95DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1541E11-5678-4E04-8622-4C5F1D4DF0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1541E11-5678-4E04-8622-4C5F1D4DF0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1541E11-5678-4E04-8622-4C5F1D4DF0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1541E11-5678-4E04-8622-4C5F1D4DF0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A572C799-7EFC-4579-A533-CC670710BD7D}
+	EndGlobalSection
+EndGlobal
