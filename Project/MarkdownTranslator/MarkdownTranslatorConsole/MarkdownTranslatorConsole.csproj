@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspose.Words" Version="22.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MarkdownTranslatorCore\MarkdownTranslatorCore.csproj" />
   </ItemGroup>
 

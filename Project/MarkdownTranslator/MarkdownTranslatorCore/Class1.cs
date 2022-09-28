@@ -42,8 +42,11 @@ namespace MarkdownTranslatorCore
             }
 
             Console.WriteLine($"{inline.GetType().Name},{GetString(inline.Span)}");
+#if DEBUG
+            Replace(inline.Span, $"PP{GetString(inline.Span)}PP");
+#else
             Replace(inline.Span, TRANSLATOR.Translate(GetString(inline.Span)));
-            //Replace(inline.Span, $"PP{GetString(inline.Span)}PP");
+#endif
         }
 
         private static void IntoInline(Inline inline)
