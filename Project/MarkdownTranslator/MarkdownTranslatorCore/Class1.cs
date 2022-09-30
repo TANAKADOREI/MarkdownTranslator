@@ -193,6 +193,14 @@ namespace MarkdownTranslatorCore
                 BlockProcess(child);
             }
 
+            BUILDER.AppendLine();
+            BUILDER.AppendLine();
+            BUILDER.AppendLine("------");
+            BUILDER.AppendLine();
+            BUILDER.AppendLine("Translated by [MarkdownTranslator](https://github.com/TANAKADOREI/MarkdownTranslator)");
+            BUILDER.AppendLine();
+            BUILDER.AppendLine();
+
             File.WriteAllText(dest_path, BUILDER.ToString());
 
             return "complete";
